@@ -3,8 +3,6 @@ case erlang:function_exported(rebar3, main, 1) of
         CONFIG;
     false ->
         [{deps, [
-            {granderl, ".*",
-                {git, "https://github.com/tokenrove/granderl.git", {tag, "v0.1.5"}}},
             {parse_trans, ".*",
                 {git, "https://github.com/uwiger/parse_trans.git", {tag, "3.0.0"}}},
             {shackle, ".*",
